@@ -19,6 +19,9 @@ set autoread
 let mapleader = ","
 let g:mapleader = ","
 
+" effects the list style when browsing dirs
+let g:netrw_liststyle = 3
+
 " Making it so ; works like : for commands. Saves typing and eliminates :W
 " style typos due to lazy holding shift.
 nnoremap ; :
