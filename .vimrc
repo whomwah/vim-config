@@ -42,7 +42,7 @@ vnoremap > >gv
 " Fast saving
 nmap <leader>w :w!<cr>
 
-" Easier moving in tabs and windows
+" Easier moving in windows
 map <leader>j <C-W>j<C-W>
 map <leader>k <C-W>k<C-W>
 map <leader>l <C-W>l<C-W>
