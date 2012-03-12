@@ -1,6 +1,8 @@
+" must come first as it changes other options
+set nocompatible
+
 call pathogen#infect()
 
-set nocompatible
 set encoding=utf-8
 filetype plugin indent on       " load file type plugins + indentation
 set showcmd                     " display incomplete commands
