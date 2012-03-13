@@ -39,6 +39,9 @@ map <Leader>= <C-w>=
 vnoremap < <gv
 vnoremap > >gv
 
+" change to current working dir
+nnoremap <Leader>cd :cd %:p:h<CR>:pwd<CR>
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
