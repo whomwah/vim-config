@@ -1,17 +1,11 @@
-" must come first as it changes other options
-set nocompatible
-
 call pathogen#infect()
 
+set nocompatible
 set encoding=utf-8
 filetype plugin indent on       " load file type plugins + indentation
 set showcmd                     " display incomplete commands
 set history=1000                " Store a ton of history (default is 20)
 set hidden                      " auto hide unsaved items in the buffer
-
-" A mapping to save and then run the current file
-" useful for running tests
-map ,t :w\|!ruby %<cr>
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -20,6 +14,10 @@ set autoread
 " like <leader>w saves the current file
 let mapleader = ","
 let g:mapleader = ","
+
+" A mapping to save and then run the current file
+" useful for running tests
+" map ,t :w\|!ruby %<cr>
 
 " effects the list style when browsing dirs
 let g:netrw_liststyle = 3
