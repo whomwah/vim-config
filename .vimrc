@@ -103,7 +103,7 @@ map <left> :bp<cr>
 
 " Always hide the statusline
 set laststatus=2
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ \ Line:\ %l/%L:%c\ \ \ %=\ %{&ff}\ %y\ %{fugitive#statusline()}
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ \ Line:\ %l/%L:%c\ \ \ %=\ %y\ [%{(&fenc==\"\"?&enc:&fenc)}]\ %{fugitive#statusline()}
 
 function! HasPaste()
     if &paste
