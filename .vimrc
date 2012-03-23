@@ -26,12 +26,6 @@ let g:netrw_liststyle = 3
 " style typos due to lazy holding shift.
 nnoremap ; :
 
-" Stupid shift key fixes
-cmap W w
-cmap WQ wq
-cmap wQ wq
-cmap Q q
-
 " Adjust viewports to the same size
 map <Leader>= <C-w>=
 
